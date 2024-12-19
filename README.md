@@ -1,13 +1,8 @@
 # 1차 AI Aris 시연 영상 및 부가 설명
 
+## 시연 영상
 
-<iframe width="956" height="538" src="https://www.youtube.com/embed/ozv4q2ov3Mk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
-{% include video id="VYOjWnS4cMY" provider="youtube" %}
-
+[![Video Label](http://img.youtube.com/vi/OnH8ScQYvCw/0.jpg)](https://www.youtube.com/watch?v=OnH8ScQYvCw)
 
 최근 LLM과 더불어 RAG 기술로 도메인에 관한 대화 능력을 강화할 수 있는 방안이 생기면서, Aris라는 아이스크림 제조 로봇에 사람과 대화로 고객의 주문을 접수받는 AI 접수원을 개발했습니다. 기존에는 키오스크로 주문을 받았으나, 키오스크에 친숙하지 않거나 사용법을 잘 모르는 분들은 불편함을 느끼거나 주문 시간이 길어져 대기 시간이 늘어나는 단점이 있었습니다. 저희 AI 아이스크림 접수원은 다음과 같은 점에서 이러한 단점을 극복하고 사람에게 더 친숙한 경험을 제공합니다.
 
@@ -15,9 +10,6 @@
 2. **회원 관리 및 주문 이력**: 회원이라면 방문 횟수를 자동으로 체크하고 적립합니다. 또한, 이전 주문 이력을 기억하여 대화를 통해 고객이 이전 주문을 쉽게 알 수 있습니다.
 3. **AI 접수 및 연동**: AI 접수원이 대화로 주문을 접수하면 Aris 아이스크림 제조 로봇과 연동되어 로봇이 바로 아이스크림을 제작합니다.
 
-## 시연 영상
-
-[![Video Label](http://img.youtube.com/vi/OnH8ScQYvCw/0.jpg)](https://www.youtube.com/watch?v=OnH8ScQYvCw)
 
 ---
 
