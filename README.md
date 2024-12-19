@@ -1,6 +1,6 @@
 # 1차 AI Aris 시연 영상 및 부가 설명
 
-## 시연 영상 (클릭 &darr; )
+## 시연 영상 (클릭 👇)
 
 [![Video Label](http://img.youtube.com/vi/OnH8ScQYvCw/0.jpg)](https://www.youtube.com/watch?v=OnH8ScQYvCw)
 
