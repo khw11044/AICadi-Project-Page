@@ -22,7 +22,7 @@ AI Cadi는 XYZ사의 아리스(Aris) 로봇 플랫폼을 기반으로 구현된 
 - **네비게이션 패키지**를 활용하여 목적지까지 효율적으로 이동합니다.
 
 ### 4. 충돌 방지
-- **Lidar 데이터**를 이용한 실시간 장애물 인식 및 회피 알고리즘이 탑재되어 안전한 이동을 보장합니다.
+- **LiDAR 데이터**를 이용한 실시간 장애물 인식 및 회피 알고리즘이 탑재되어 안전한 이동을 보장합니다.
 - **Depth Estimation** 기술을 활용하여 후방 충돌을 예방합니다.
 
 
@@ -31,9 +31,9 @@ AI Cadi는 XYZ사의 아리스(Aris) 로봇 플랫폼을 기반으로 구현된 
 
 ## 주요 기술 구성 요소
 
-- **LIDAR SLAM**: 실내 및 실외 자율주행 구현
+- **LiDAR SLAM**: 실내 및 실외 자율주행 구현
 - **ROS2**: 로봇 운영 시스템 및 데이터 처리
-- **Simulation**: Lidar 및 Depth 데이터 기반 알고리즘 테스트
+- **Simulation**: LiDAR 및 Depth 데이터 기반 알고리즘 테스트
 - **Depth-Anything V2**: 깊이 인식 및 충돌 방지
 - **Action Recognition**: 행동 인식 및 자세 분석
 - **Tello Drone Control**: 드론 제어 및 실시간 데이터 통합
@@ -50,7 +50,7 @@ AI Cadi는 XYZ사의 아리스(Aris) 로봇 플랫폼을 기반으로 구현된 
 | 김현우 | 고객 추적 및 HPE(Human Pose Estimation) 구현, FastAPI를 활용한 시스템 통합 및 이벤트 감지 로직 구현 |
 | 김태현 | 행동 인식 및 2D HPE 알고리즘 개발, Navigation 시스템을 활용한 실내 자율 추적 구현                       |
 | 라환철 | Visual SLAM 기술 및 드론 제어 연구, 웹페이지 개발 및 통합                  |
-| 박성우 | 실내 자율주행 시스템 구현,  Lidar를 활용한 장애물 회피 및 충돌 방지 알고리즘 개발  |
+| 박성우 | 실내 자율주행 시스템 구현,  LiDAR를를 활용한 장애물 회피 및 충돌 방지 알고리즘 개발  |
 | 이지헌 | Depth Estimation을 활용한 충돌 방지, ArUco Marker를 활용한 주차 기능 개발, Arduino 기반 드론 제작      |
 
 ---
