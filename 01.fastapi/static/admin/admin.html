@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리자 모드</title>
+    <link rel="stylesheet" href="/static/admin/admin.css">
+</head>
+<body>
+    <!-- 제목 -->
+    <h1>관리자 모드</h1>
+    <p>키보드를 눌러보세요 (W: 앞으로, S: 뒤로, A: 왼쪽, D: 오른쪽)</p>
+
+    <!-- 관리자 권한 토글 버튼 -->
+    <div>
+        <button id="toggle-admin" style="background-color: blue; color: white;">
+            관리자 권한 Off
+        </button>
+    </div>
+
+    <!-- 비디오 스트리밍 화면 -->
+    <div class="video-container">
+        <!-- 정면 스트림 -->
+        <div class="video-box front">
+            <iframe src="http://192.168.0.129:5000/video_front" allow="autoplay"></iframe>
+            <p class="label">정면</p>
+        </div>
+
+        <!-- 후면 스트림 -->
+        <div class="video-box back">
+            <iframe src="http://192.168.0.123:5000/video_back" allow="autoplay"></iframe>
+            <p class="label">후면</p>
+        </div>
+    </div>
+
+    <!-- 키 입력 상태 표시 -->
+    <div id="output">대기 중...</div>
+
+    <!-- JavaScript -->
+    <script src="/static/admin/admin.js"></script>
+</body>
+</html>
